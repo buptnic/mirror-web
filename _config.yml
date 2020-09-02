@@ -6,30 +6,30 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 清华大学开源软件镜像站
+title: 北京邮电大学开源软件镜像站
 # title: 北京外国语大学开源软件镜像站
-school: 清华大学
+school: 北京邮电大学
 # school: 北京外国语大学
-brand: Tsinghua Open Source Mirror
-operator: 清华大学信息化技术中心
+brand: BYRIO Mirror
+operator: 北京邮电大学信息化技术中心
 # operator: 北外信息技术中心
-logo: true
+logo: false
 meow_404: true
 issue_tag: tuna
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: "/:categories/:title/"
-url: "https://mirrors.tuna.tsinghua.edu.cn"
-hostname: "mirrors.tuna.tsinghua.edu.cn"
-urlv4: "https://mirrors4.tuna.tsinghua.edu.cn"
-urlv6: "https://mirrors6.tuna.tsinghua.edu.cn"
-aosp: "aosp.tuna.tsinghua.edu.cn"
-arch_archive: "arch-archive.tuna.tsinghua.edu.cn"
-aur: "aur.tuna.tsinghua.edu.cn"
-pypi: "pypi.tuna.tsinghua.edu.cn"
-homelink: "https://tuna.moe"
-hide_navbar: false
-hide_download: false
-hide_server_status: false
+urlauto: "https://mirrors.byrio.org"
+hostname: "mirrors.byrio.org"
+#urlv4: "https://mirrors4.tuna.tsinghua.edu.cn"
+#urlv6: "https://mirrors6.tuna.tsinghua.edu.cn"
+#aosp: "aosp.tuna.tsinghua.edu.cn"
+#arch_archive: "arch-archive.tuna.tsinghua.edu.cn"
+#aur: "aur.tuna.tsinghua.edu.cn"
+#pypi: "pypi.tuna.tsinghua.edu.cn"
+homelink: "https://byrio.org"
+hide_navbar: true
+hide_download: true
+hide_server_status: true
 
 # Build settings
 highlighter: rouge
